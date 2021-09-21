@@ -7,7 +7,7 @@
 - Using a recursive algorithm to solve sudoku.
 
 **CNN model:**
-- Input size is [1, 28, 28, 1]
+- Input size is [1, 32, 32, 1] with best_cnn.tflite or [1, 28, 28, 1] with myModel.tflite.
 - Output size is [1, 10] with the probability of predict number in range [0, 9]
 
 **My Android Studio version is Arctic Fox 2020.3.1**
